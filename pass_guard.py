@@ -38,7 +38,7 @@ def generate_password():
     ]
     
     password += [secrets.choice(pool) for _ in range(8)]
-    random.shuffle(password)
+    secrets.SystemRandom().shuffle(password)
     
     return ''.join(password)
 
