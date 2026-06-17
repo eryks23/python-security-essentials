@@ -181,7 +181,7 @@ print(pwd)  # e.g. "xB7#mKq!2pLr"
 
 ```
 python-security-essentials/
-├── [DO UZUPEŁNIENIA: script filename]   # Main CLI script
+├── pass_guard.py                        # Main CLI script
 ├── requirements.txt                     # Python dependencies
 └── README.md                            # Project documentation
 ```
@@ -196,10 +196,10 @@ No automated tests are included at this time. To verify behaviour manually:
 
 ```bash
 # Test weak password (no uppercase, too short)
-echo "weak" | python [DO UZUPEŁNIENIA: script filename]
+echo "weak" | python pass_guard.py
 
 # Test strong password
-echo "Str0ng!Pass" | python [DO UZUPEŁNIENIA: script filename]
+echo "Str0ng!Pass" | python pass_guard.py
 ```
 
 To add unit tests using `pytest`:
@@ -256,5 +256,3 @@ Please ensure any new functions are covered by tests and that existing tests con
 ## Author
 
 **eryks23** — [github.com/eryks23](https://github.com/eryks23)
-
-Project repository: [https://github.com/eryks23/python-security-essentials](https://github.com/eryks23/python-security-essentials)
