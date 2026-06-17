@@ -3,7 +3,6 @@
 > Validate password strength and generate cryptographically secure passwords from the command line.
 
 ![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
-![License](https://img.shields.io/badge/license-[DO%20UZUPEŁNIENIA]-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
 ---
@@ -211,7 +210,7 @@ pip install pytest
 Example test file (`test_password.py`):
 
 ```python
-from password_checker import check_password, generate_password
+from pass_guard import check_password, generate_password
 
 def test_short_password_fails():
     assert check_password("Ab1!") is False
