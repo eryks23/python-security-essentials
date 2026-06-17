@@ -165,7 +165,7 @@ check_password("Str0ng!Pass")   # True
 Generates a 12-character cryptographically secure password that satisfies all four character-class requirements.
 
 ```python
-from [DO UZUPEŁNIENIA: module name] import generate_password
+from pass_guard import generate_password
 
 pwd = generate_password()
 print(pwd)  # e.g. "xB7#mKq!2pLr"
