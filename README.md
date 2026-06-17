@@ -145,7 +145,7 @@ Both functions can be imported into your own scripts.
 Validates whether a password satisfies the strength policy.
 
 ```python
-from [DO UZUPEŁNIENIA: module name] import check_password
+from pass_guard import check_password
 
 check_password("Weak1")         # False — too short
 check_password("alllowercase1!") # False — no uppercase
