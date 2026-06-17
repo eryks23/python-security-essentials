@@ -106,7 +106,7 @@ pip install colorama
 Run the script and enter the password you want to evaluate when prompted:
 
 ```bash
-python [DO UZUPEŁNIENIA: script filename, e.g. password_checker.py]
+python pass_guard.py
 ```
 
 **Example — weak password:**
