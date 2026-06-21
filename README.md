@@ -2,7 +2,7 @@
 
 > Validate password strength and generate cryptographically secure passwords from the command line.
 
-![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
 ---
